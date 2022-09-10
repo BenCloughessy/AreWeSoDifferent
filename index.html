@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Cdn for temporary deployment -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="home.css" />
+
+        <!-- Local
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> -->
+        
+        
+
+        <title>Are We So Different?</title>
+    </head>
+
+    <body id="body">
+        <!-- Sidebar Navigation -->
+        <nav id="vertical-nav" class="d-none d-lg-block navbar navbar-light bg-transparent">
+            <a class="nav-link smooth-scroll" id="storybar" href="#invitation">
+                <h5 class="" id="navLabel">Storybar</h5>
+            </a>
+
+            <a class="nav-link smooth-scroll ml-2" href="#the-early-days" data-toggle="tooltip" data-placement="left" title="The Early Days">
+                <svg id="footEarly" class="footprint" height="50px" width="62px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+            </a>
+                
+            <a class="nav-link smooth-scroll ml-2" href="#teenage-years" data-toggle="tooltip" data-placement="left" title="Teenage Years">
+                <svg id="footTeen" class="footprint" height="50px" width="62px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+            </a>
+                   
+            <a class="nav-link smooth-scroll ml-2" href="#adulthood" data-toggle="tooltip" data-placement="left" title="Adulthood">
+                <svg id="footAdult" class="footprint" height="50px" width="62px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+            </a>
+                  
+            <a class="nav-link smooth-scroll ml-2" href="#can-you-help-me" data-toggle="tooltip" data-placement="left" title="&quot;Can You Help Me?&quot;">
+                <svg id="footAsk" class="footprint" height="50px" width="62px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+            </a>
+        </nav>
+               
+        <!-- Invitation Page Content -->
+        <div id="invitationContainer">
+            <div class="container" id="invitation">
+                <div class="row">
+                    <div class="col">
+                        <h1>Are We So Different?</h1>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col col-sm-7">
+                        <h4 class="mb-4">Everyone has a story.</h4> 
+                            <h4 class="mb-3">No two are identical.</h4>
+                            <h4 class="mb-3">Each one is like a unique filter over the light of our lives, providing new and fresh color in the world.</h4> 
+                            <h4 class="mb-3">Yet how easily do we mistake the filter for the light itself, as we so carelessly sort ourselves by color and shade?</h4>
+                            <h4 class="mb-3">We invite you to experience several stories among many, and to ask yourself:</h4> 
+                            <h4><i>“Are we so different?"</i></h4>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <a id="begin-btn" class="btn btn-danger btn-lg" href="#the-early-days">Begin</a>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <a href="#the-early-days" id="chevron-down1"><img class="bounce" src="chevron-down.svg" alt="Chevron Down" height="55px" width="55px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- "The Early Days" Content -->
+        <div id="earlyDaysContainer">
+            <div class="container" id="the-early-days">
+                <div class="row justify-content-around">
+                    <div class="col-12 order-1 mb-4 mb-sm-0">
+                        <h2>The Early Days</h2>
+                    </div>
+
+                    <div class="col-11 col-sm-7 order-3 order-sm-2 story">
+                            <h5 class="my-2 mx-1 text-center story-content">St. Mary's hospital in Tucson, Arizona is where young Frank came into the world.
+                                Although born to caring parents, he quickly came to learn that his place in the family would always be second to his mother's opiate addiction. His father vanished one day when Frank was 4, likely after becoming convinced that he, too, would always be second.
+                                Although his mother loved him dearly, Frank often found himself - sometimes for several days - alone and hungry in the apartment. Despite his austere living conditions, he was distraught when CPS removed him from his mother and placed him with a foster family at 8 years of age.</h5>
+                    </div>
+
+                    <!-- Children graphic -->
+                    <div class="col-12 col-sm-4 align-self-center order-2 order-sm-3">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center animateChild">
+                                <img class="animateChild" id="fosterChild" src="child.svg" height="100px" width="90px"></img>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col">
+                                <h3 id="childText" class="text-center mb-5">The average child is <b>7 years old</b> when they enter foster care.<i id="sup"><b>&sup1;</b></i></h3>  
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Circumstances of Foster Care Entry Charts -->
+                    <div class="justify-centent-end col-12 col-sm-6 d-none d-md-block mt-3">
+                        <canvas class="infoGraph" id="earlyDaysStatsDesktop"></canvas>
+                    </div>
+
+                    <div class="justify-centent-end col-12 col-sm-6 d-md-none mt-3 mb-3">
+                        <canvas class="infoGraph" id="earlyDaysStatsMobile" height="250px"></canvas>
+                    </div>
+
+                    <div id="earlyCollapse" class="col-sm-6 align-self-center collapse">
+                        <h5 class="text-center mt-4 mt-sm-0 mb-5 mb-sm-0">"The child welfare system is sometimes described as a <i>highway to homelessness...</i> <b>Nationwide, 50% of the homeless population spent time in foster care."</b><i>&sup2;</i> Entry into this system is often preceded by <i>neglect, drug abuse, and violence.</i></h5>
+                    </div>
+
+                    <div class="d-flex col justify-content-center d-sm-none mt-2 mb-4">
+                        <a data-toggle="collapse" href="#earlyCollapse" role="button" aria-expanded="false" aria-controls="earlyCollapse"><img class="chat-dots wiggle" src="chat-dots-fill.svg" width="40px" height="40px"></img></a>
+                    </div>
+                                        
+                    <div class="col-sm-6 align-self-center d-none d-sm-block">
+                        <h5 class="text-center mt-4 mt-sm-0 mb-5 mb-sm-0">"The child welfare system is sometimes described as a <i>highway to homelessness...</i> <b>Nationwide, 50% of the homeless population spent time in foster care."</b><i>&sup2;</i> Entry into this system is often preceded by <i>neglect, drug abuse, and violence.</i></h5>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <a href="#teenage-years" class="chevron-down"><img class="bounce" src="chevron-down.svg" alt="Chevron Down" height="55px" width="55px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+         <!-- "Teenage Years" Content -->
+         <div id="teenContainer">
+            <div class="container" id="teenage-years">
+                <div class="row">
+                    <div class="col-12 justify-content-center order-1">
+                        <h2>The Teenage Years</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-11 col-sm-10 mb-5 mt-4 mt-sm-0 order-3 order-sm-2 story">
+                        <h5 class="my-2 mx-1 text-center story-content">"At age 14 in a small town in Washington State, Natalie's experience with homelessness began. Natalie's dad left her family, and her mom fell into depression and started using methamphetamines. '[I]f she wasn't drunk or high, she was gone,' Natalie noted in one part of Voices of Youth Count's research efforts. For the next six months, Natalie cared for her four younger siblings. She started to miss school and ultimately dropped out. The stress of her circumstance mounted. Through friends, she encountered meth, a drug that had become tragically common in her community. She started using. This only added to conflict with her mom, and, after a fight with her mom's new boyfriend, Natalie was kicked out."<b><i>&#8309;</i></b></h5>
+                    </div>
+                    <div class="col order-2 order-sm-3">
+                        <div class="row justify-content-around">
+                            <div class="col-12 col-sm-5 align-self-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="text-center mb-3"><b><i>For many, the usual joys and trials of adolescence take a back-seat</i></b> to the incredible challenges they face.</h5>
+                                    </div>
+                                </div>
+
+                                
+                
+                                <div class="row">
+                                    <div class="col d-none d-sm-block">
+                                        <h5  class="text-center mb-5 mb-sm-0">"Housing instability often has a domino effect and makes it <b><i>more difficult to complete higher education, maintain stable employment, or manage the stress, trauma, and mental health impacts</i></b> that go hand-in-hand with homelessness."<i>&sup3;</i></h5> 
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <!-- Mobile and Desktop Graphics -->
+                            <div class="col-12 col-sm-6 d-none d-md-block">
+                                <canvas class="infoGraph" id="teenageStatsDesktop"></canvas>
+                            </div>
+
+                            <div class="col-12 col-sm-6 d-md-none">
+                                <canvas class="infoGraph" id="teenageStatsMobile"></canvas>
+                            </div>
+
+                            <div class="col d-flex justify-content-center d-sm-none mt-4 mb-3">
+                                <a data-toggle="collapse" href="#teenCollapse" role="button" aria-expanded="false" aria-controls="teenCollapse"><img class="chat-dots wiggle" src="chat-dots-fill.svg" width="40px" height="40px"></img></a>
+                            </div>
+
+                            <div id="teenCollapse" class="col-12 collapse">
+                                <h5 class="text-center mb-5 mb-sm-0">"Housing instability often has a domino effect and makes it <b><i>more difficult to complete higher education, maintain stable employment, or manage the stress, trauma, and mental health impacts</i></b> that go hand-in-hand with homelessness."<i>&sup3;</i></h5> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <a href="#adulthood" class="chevron-down"><img class="bounce" src="chevron-down.svg" alt="Chevron Down" height="55px" width="55px"></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+
+         <!-- "Adulthood" Content -->
+         <div id="adultContainer">
+            <div class="container" id="adulthood">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">Adulthood</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-5 align-self-center">
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="text-center smallMarBot mb-3" id="smallMarBot"><b><i>It's almost unheard of for an adult to become homeless without experiencing significant trauma in their lives.</i></b></h5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <h5 class="text-center mb-5 mb-sm-0">"Homelessness itself is traumatic... and these experiences increase the likelihood of developing trauma-related symptoms and posttraumatic stress disorder (PTSD)."<i>&#179;</i></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 d-none d-md-block">
+                        <canvas class="infoGraph" id="adultStatsDesktop"></canvas>
+                    </div>
+
+                    <div class="col-12 d-md-none">
+                        <canvas class="infoGraph" id="adultStatsMobile" height="250px"></canvas>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-11 col-sm-10 mt-4 mt-sm-5 story">
+                        <h5 class="my-2 mx-1 text-center story-content">"I [Jonathan] was teaching at a university, helping students in the engineering department when my relationship broke down just before the first lockdown. I'd been married for 23 years. I left and at the time, because I was still working, I was able to stay in a B&B. But when the outbreak began, that stuffed everything up. My job came to an end and I was put on furlough. I couldn't afford to stay in the hotel anymore so I started sleeping in my car. I ended up living in my car for about six or seven months and that really affected my mental health. I got so low that I tried to take an overdose. My ex called the paramedics and they came, luckily I was okay, but that broke me."<i>&#8310;</i></h5>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <a href="#can-you-help-me" id="chevron-down-final" class="chevron-down"><img class="bounce" src="chevron-down.svg" alt="Chevron Down" height="55px" width="55px"></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+
+         <!-- "Can You Help Me?" Content -->
+         <div id="askContainer">
+            <div class="container" id="can-you-help-me">
+                <div class="row justify-content-center">
+                    <div id="speechBubble" class="col-9 col-sm-6">
+                        <h3 id="bubbleText" class="text-center">Are we so different?</h3>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-9 ">
+                        <h5 class="text-center mb-1">From the mouth of all those represented</h5> 
+                        <h5 class="text-center mb-1">by Frank, by Natalie, and by Jonathan,</h5>
+                        <h5 class="text-center mb-4">the question is asked of us again.</h5>
+                        <h5 class="text-center mb-4 mb-sm-5"><b>It's our turn to answer.</b></h5>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button class="btn btn-primary btn-lg d-md-none" href="#">Download the App</button>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button class="btn btn-primary btn-lg d-none d-md-block">Get Involved</button>
+                    </div>
+                </div>
+    
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button class="btn btn-primary btn-lg d-none d-md-block">Further Reading & Resources</button>
+                    </div>
+                </div>
+    
+                
+    
+                <div id="media-row" class="row justify-content-center mb-5 mb-sm-0">
+                    <div class="col-12">
+                        <h2 id="media-row-label">Share the Word</h2>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center media-icon">
+                        <a href="#"><img src="facebook.svg" width="60px" height="60px"></a>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center media-icon">
+                        <a href="#"><img src="instagram.svg" width="60px" height="60px"></a>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center media-icon">
+                        <a href="#"><img src="twitter.svg" width="60px" height="60px"></a>
+                    </div>
+                </div>
+
+                <br />
+    
+                <div id="citations" class="row mt-5 mt-sm-0">
+                    <div class="col-12">
+                        <a class="refLink " href="https://www.acf.hhs.gov/cb" alt="Reference 1" target="_blank" rel="noopener noreferrer"><p><i><sup>1</sup></i> U.S. Department of Health and Human Services, Administration for Children and Families, Administration on Children, Youth and Families, Children's Bureau, https://www.acf.hhs.gov/cb Preliminary Estimates for FY 2020 as of October 04, 2021(28)
+                        </p></a>
+
+                        <a class="refLink" href="https://nfyi.org/issues/homelessness/" alt="Reference 2" target="_blank" rel="noopener noreferrer"><p><i><sup>2</sup> Homelessness &amp; Foster Youth: The National Foster Youth Institute.</i> NFYI. (2021, May 27). Retrieved September 2, 2022, from https://nfyi.org/issues/homelessness/ 
+                        </p></a>
+
+                        <a class="refLink" href="https://www.samhsa.gov/homelessness-programs-resources/hpr-resources/traumas-impact-men-experiencing-homelessness" alt="Reference 3" target="_blank" rel="noopener noreferrer"><p><i><sup>3</sup> Trauma's impact on men experiencing homelessness. </i>SAMHSA. (2022, June 4). Retrieved September 6, 2022, from https://www.samhsa.gov/homelessness-programs-resources/hpr-resources/traumas-impact-men-experiencing-homelessness</p></a>
+
+                        <a class="refLink" href="https://www.fosterclub.com/blog/statistics-and-research/current-state-foster-care" alt="Reference 4" target="_blank" rel="noopener noreferrer"><p><i><sup>4</sup> The current state of Foster Care.</i> FosterClub. (2018, October 11). Retrieved September 7, 2022, from https://www.fosterclub.com/blog/statistics-and-research/current-state-foster-care</p></a>
+
+                        <a class="refLink" href="https://voicesofyouthcount.org/brief/national-estimates-of-youth-homelessness/" alt="Reference 5" target="_blank" rel="noopener noreferrer"><p><i><sup>5</sup></i> Morton, M.H., Dworsky, A., & Samuels, G.M. (2017). <i>Missed opportunities: Youth homelessness in America. National estimates. </i>Chicago, IL: Chapin Hall at the University of Chicago.</p></a>
+
+                        <a class="refLink" href="https://www.crisis.org.uk/get-involved/real-life-homeless-stories/bulletins/jonathan-s-story/" alt="Reference 6" target="_blank" rel="noopener noreferrer"><p><i><sup>6</sup> Jonathan's story. Jonathan was forced into homelessness after losing his job. </i>Crisis. (n.d.). Retrieved September 7, 2022, from https://www.crisis.org.uk/get-involved/real-life-homeless-stories/bulletins/jonathan-s-story/ </p></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
+
+        
+        <!-- Saving for later until I learn to compile JS LOL -->
+        <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/chart.js/dist/chart.min.js"></script>
+        <script src="node_modules/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
+         -->
+
+         <!-- cdn's for temporary deployment -->
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+         <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
