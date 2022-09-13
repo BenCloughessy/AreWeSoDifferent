@@ -345,9 +345,9 @@ const teenageChartMobile = new Chart(ctx4, {
               'rgb(245, 117, 66)',
               'rgb(204, 22, 22)',
             ],
-            radius: 115,
+            radius: 105,
             hoverOffset: 19,
-            offset: 15
+            offset: 12
           }]
     },
     
