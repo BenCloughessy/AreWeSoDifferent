@@ -221,6 +221,31 @@ nav > a >img {
         margin: 7px -0 0 -28px;
 }
 
+@media only screen and (max-width: 600px) {
+  #speechBubble {
+    width: 100px; 
+    height: 70px; 
+    background: #6a9c88;
+    position: relative;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+
+#speechBubble:before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #6a9c88;
+    border-bottom: 13px solid transparent;
+    margin: 7px -0 0 -28px;
+}
+}
+
  #bubbleText {
     position: inherit;
     color: white;
