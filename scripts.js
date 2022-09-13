@@ -159,8 +159,8 @@ const earlyChartDesktop = new Chart(ctx1, {
                 font: {
                     size: 20
                 },
-                margin: {
-                    bottom: 3
+                padding: {
+                    bottom: 14
                 }
             }
         }
@@ -279,7 +279,6 @@ const teenageChartDesktop = new Chart(ctx3, {
               'rgb(245, 117, 66)',
               'rgb(204, 22, 22)',
             ],
-            radius: 200,
             hoverOffset: 19,
             offset: 15
           }]
@@ -335,7 +334,7 @@ const teenageChartMobile = new Chart(ctx4, {
         ],
         labels: [
             " 25% Experience homelessness",
-            ' 33% Struggle with mental health disorders',
+            ' 33% Struggle with mental health',
             ' 40% Graduate from highschool'
         ],
         datasets: [{
@@ -345,7 +344,6 @@ const teenageChartMobile = new Chart(ctx4, {
               'rgb(245, 117, 66)',
               'rgb(204, 22, 22)',
             ],
-            radius: 105,
             hoverOffset: 19,
             offset: 15
           }]
@@ -473,7 +471,7 @@ const adultChart = new Chart(ctx5, {
                     size: 20
                 },
                 padding: {
-                    bottom: 2
+                    bottom: 14
                 }
             }
         }
@@ -565,7 +563,7 @@ const adultChartMobile = new Chart(ctx6, {
                     size: 20
                 },
                 padding: {
-                    bottom: 10
+                    bottom: 15
                 }
             }
         }
