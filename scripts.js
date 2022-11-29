@@ -146,7 +146,9 @@ const earlyChartDesktop = new Chart(ctx1, {
                 enabled: true,
                 position: 'average',
                 callbacks: {
-                    label: function() {}
+                    label: function(context) {
+                        return context.chart.data.myLabels[context.dataIndex]
+                    }
                 }
             },
             legend: {
@@ -232,7 +234,9 @@ const earlyChartMobile = new Chart(ctx2, {
                 enabled: true,
                 position: 'average',
                 callbacks: {
-                    label: function() {}
+                    label: function(context) {
+                        return context.chart.data.myLabels[context.dataIndex]
+                    }
                 }
             },
             legend: {
@@ -263,7 +267,6 @@ const teenageChartDesktop = new Chart(ctx3, {
     data: {
         myLabels: [
             "",
-            '',
             '',
             ''
         ],
@@ -297,7 +300,7 @@ const teenageChartDesktop = new Chart(ctx3, {
                 position: 'nearest',
                 callbacks: {
                     label: function(context) {
-                        return context.label
+                        return context.chart.data.myLabels[context.dataIndex]
                     }
                 }
             },
@@ -362,7 +365,7 @@ const teenageChartMobile = new Chart(ctx4, {
                 position: 'nearest',
                 callbacks: {
                     label: function(context) {
-                        return context.label
+                        return context.chart.data.myLabels[context.dataIndex]
                     }
                 }
             },
@@ -457,7 +460,9 @@ const adultChart = new Chart(ctx5, {
                 enabled: true,
                 position: 'nearest',
                 callbacks: {
-                    label: function() {}
+                    label: function(context) {
+                        return context.chart.data.myLabels[context.dataIndex]
+                    }
                 }
             },
             legend: {
@@ -549,7 +554,9 @@ const adultChartMobile = new Chart(ctx6, {
                 enabled: true,
                 position: 'nearest',
                 callbacks: {
-                    label: function() {}
+                    label: function(context) {
+                        return context.chart.data.myLabels[context.dataIndex]
+                    }
                 }
             },
             legend: {
